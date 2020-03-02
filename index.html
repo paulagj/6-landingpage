@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>landingpage</title>
+    <style type="text/css">
+        @font-face{
+            src: <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+        }
+        :root{
+            --taronja: orange;
+            --morat: purple;
+            --t1: 1em;
+            --t2: 2.5em;
+            --t3: 1.5em;
+            --p: 0.85em;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        img{
+            width: 100%;
+        }
+        body{
+            font-size: 18px;
+            font-family: 'rubik', sans-serif;
+        }
+        .contenidor{
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            background-color: azure;
+            align-items: center;
+            justify-content: center;
+        }
+        .cont1{
+            padding: 1em 1em 2em 2em;
+            background-color: white;
+            width: 400px;
+            height: 400px;
+        }
+        .cont2{
+            background-color: white;
+            width: 400px;
+            height: 400px;
+            overflow: hidden;
+            padding-top: 1em;
+            padding-right: 1em;
+        }
+        .cont2 img {
+            padding-top: 42px;
+        }
+        h1{
+            font-size: var(--t1);
+            color: var(--taronja);
+            text-transform: uppercase;
+            margin-bottom: 4em;
+        }
+        h2{
+            font-size: var(--t2);
+            color: var(--taronja);
+        }
+        h3{
+            font-size: var(--t3);
+            color: var(--morat);
+        }
+        p{
+            font-size: var(--p);
+            color: var(--morat);
+        }
+    </style>
+</head>
+<body>
+    <div class="contenidor">
+        <div class="cont1">
+            <h1>Companylogo</h1>
+            <h2>Start up</h2>
+            <h3>Business Plan</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor inoididunt ut labore et dolore magna aliqua</p>
+        </div>
+        <div class="cont2">
+            <img src="img/2985187.png">
+        </div>
+    </div>
+</body>
+</html>
